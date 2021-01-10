@@ -1,4 +1,4 @@
-package com.gfg.gcl12;
+package com.gfg.gcl12.arrays;
 
 /*
 * Problem Statement -   Given a sorted array and a number x find out the greatest index of number in the array
