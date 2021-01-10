@@ -5,7 +5,7 @@ package com.gfg.gcl12;
 * Input             -   [1,3,5,7,7,9] , x = 7
 * Output            -   4
 * */
-public class Main {
+public class FindGreatestIndex {
 
     private static int findMaxIndex(int[] input, int x){
         int result = -1, beginning = 0, end= input.length-1, mid;
