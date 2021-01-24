@@ -19,8 +19,20 @@ public class ArrayReverse {
         input[idx2] = temp;
     }
 
+    private static void printArray(int[] input){
+        System.out.print("Reversed Array => [ ");
+        for(int i=0;i<input.length;i++){
+            System.out.print(input[i]+" ,");
+        }
+        System.out.println(" ]");
+    }
+
     public static void main(String[] args){
         int[] input = new int[]{1,2,3,4,5,6};
         reverseArray(input);
+        printArray(input);
+        input = new int[]{1,2,3,4,5};
+        reverseArray(input);
+        printArray(input);
     }
 }
