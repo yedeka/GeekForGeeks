@@ -4,6 +4,8 @@ package com.gfg.gcl12.binarysearch;
 * Problem Statement - Given a sorted array find out the first and last index of a number within the array.
 * Time Complexity - O(LogN)
 * Space Complexity - O(LogN)
+* Extended Problem - Find out the number of occurances of an element in the array.
+* Solution -    Find the first and last index of an element in the array and then number of occurances is last - first + 1
 * */
 public class FindFirstnLast {
     private static int findFirst(int[] input, int x, int low, int high){
