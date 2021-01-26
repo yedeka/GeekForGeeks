@@ -10,13 +10,9 @@ public class FindSecondLargest {
                 if(result != -1)
                     result = largest;
                 largest = i ;
-            }else{
-                if(result != -1){
-                    if(arr[i] > arr[result])
-                        result = i;
-                }else{
+            }else if(arr[i] != arr[largest]){
+                if(result == -1 || arr[i] > arr[result])
                     result = i;
-                }
             }
         }
         return result;
