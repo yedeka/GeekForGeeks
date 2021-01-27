@@ -28,6 +28,6 @@ public class MoveZerosToEnd {
         for(int i=0;i< input.length;i++){
             System.out.print(input[i]+", ");
         }
-        System.out.println(" ]");
+        System.out.println("]");
     }
 }
