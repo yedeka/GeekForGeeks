@@ -20,7 +20,6 @@ public class LeadersofArray {
         }
         return leadersList;
     }
-
     public static void main(String[] args){
         int[] input = new int[]{7,10,4,3,6,5,2};
         ArrayList<Integer> leaderList = findLeaders(input);
