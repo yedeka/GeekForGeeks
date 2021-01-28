@@ -14,5 +14,8 @@ public class MaximumSumSubarray {
         int[] input = new int[]{-3,8,-2,4,-5,6};
         int maxSum = findMaxSubArraySum(input);
         System.out.println("Maximum sum of any subarray => "+maxSum);
+        input = new int[]{1,-2,3,-1,2};
+        maxSum = findMaxSubArraySum(input);
+        System.out.println("Maximum sum of any subarray => "+maxSum);
     }
 }
