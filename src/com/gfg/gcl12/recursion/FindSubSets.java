@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /*
-* Problem Statement - Given a String find all possible subsets of a string recursively.
+* Problem Statement - Given a String find all possible subsets of a string iteratively.
 * Time Complexity - O(N) where N is the length of the string.
 * */
 public class FindSubSets {
